@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Form</title>
+    <script defer src="./js/login.js"></script>
+    <link rel="stylesheet" href="./styles/LoginSass/login.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="contactDiv">
+        <div class="phoneNumber">
+          <a href="tel:+4904-049-950"
+            ><i class="bx bx-phone-incoming"></i>
+            <a href="tel:+4904-049-950">+4904-049-950</a></a
+          >
+        </div>
+
+        <div class="discount">
+          <a href="#discount">
+            <p>Get 50% off on the Selected items <b>Shop now</b></p>
+          </a>
+        </div>
+
+        <div class="siteSettings">
+          <a href="#language">
+            <i class="bx bx-chevron-down"></i>
+            English
+          </a>
+
+          <a href="#location">
+            <i class="bx bx-chevron-down"></i>
+            Location
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main -->
+    <main>
+      <section class="mainSection">
+        <div class="logo">
+          <h2>LOGO</h2>
+        </div>
+
+        <div class="form">
+          <p class="login">Log in</p>
+
+          <form action="">
+            <label for="username">
+              Username
+              <input type="text" name="username" id="username" required />
+            </label>
+
+            <label for="password">
+              Password
+              <input type="password" name="password" id="password" required />
+            </label>
+
+            <a class="forgot-password" href="#forgot-password">
+              Forgot Password?
+            </a>
+
+            <button class="buttonSubmit" type="submit">Login</button>
+          </form>
+
+          <p class="or">OR</p>
+
+          <div class="accounts">
+            <p>Continue with:</p>
+
+            <div class="circle-profiles">
+              <a href=""><div></div></a>
+              <a href=""><div></div></a>
+              <a href=""><div></div></a>
+            </div>
+
+            <a class="account-create" href="#account-create"
+              >Don't have account? Create account</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

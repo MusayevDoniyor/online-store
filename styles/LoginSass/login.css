@@ -1,0 +1,245 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 1350px;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  width: 100%;
+  height: auto;
+}
+
+.contactDiv {
+  width: 100%;
+  height: 70px;
+}
+
+.siteSettings a {
+  margin-left: 20px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21.78px;
+  gap: 6px;
+}
+
+.profile {
+  width: auto;
+  display: flex;
+}
+.profile div {
+  margin: 0 15px;
+}
+.profile a {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21.78px;
+  color: #454444;
+}
+.profile i {
+  width: 25px;
+  height: 25px;
+  font-size: 22px;
+  color: #454444;
+}
+
+.contactDiv {
+  background-color: #454444;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.contactDiv a {
+  color: #fff;
+}
+
+.phoneNumber {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21.78px;
+}
+
+i {
+  width: auto;
+  height: auto;
+}
+
+.discount {
+  line-height: 21.78px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.discount b {
+  border-left: 2px solid #fff;
+  padding-left: 10px;
+  margin-left: 7px;
+  font-weight: 700;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainSection {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.logo h2 {
+  width: auto;
+  height: auto;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 77.45px;
+  color: #454444;
+}
+
+.form {
+  width: auto;
+  height: auto;
+}
+
+.login {
+  width: auto;
+  height: auto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19.36px;
+  color: #000000;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+form label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19.36px;
+  margin: 10px 0;
+}
+form label input {
+  padding: 7px;
+  border: none;
+  outline: none;
+  padding: 12px 0;
+  border-bottom: 2px solid #454444;
+}
+
+.forgot-password {
+  width: auto;
+  height: auto;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19.36px;
+  color: #000000;
+  text-align: right;
+  margin: 5px 0 40px;
+}
+
+.buttonSubmit {
+  width: auto;
+  height: auto;
+  border-radius: 30px;
+  padding: 13px 262px;
+  cursor: pointer;
+  gap: 10px;
+  background-color: #454444;
+  color: white;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29.05px;
+  border: none;
+  margin-bottom: 25px;
+}
+
+.or {
+  width: 100%;
+  position: relative;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16.94px;
+  color: #454444;
+  margin-bottom: 15px;
+}
+
+.or::after,
+.or::before {
+  content: "";
+  border: 1px solid #D9D9D9;
+  position: absolute;
+  width: 46%;
+}
+
+.or::before {
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.or::after {
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
+
+.accounts {
+  width: auto;
+  height: auto;
+}
+.accounts p {
+  text-align: left;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19.36px;
+  color: #454444;
+}
+.accounts .circle-profiles {
+  width: 50%;
+  height: auto;
+  margin: 0 auto 25px;
+  display: flex;
+  justify-content: space-around;
+}
+.accounts .circle-profiles div {
+  width: 60px;
+  height: 60px;
+  opacity: 65%;
+  background-color: #D9D9D9;
+  border-radius: 50%;
+}
+.accounts .account-create {
+  width: auto;
+  height: auto;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19.36px;
+  color: #000;
+}/*# sourceMappingURL=login.css.map */

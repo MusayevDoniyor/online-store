@@ -1,0 +1,158 @@
+main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainSection {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.logo h2 {
+    width: auto;
+    height: auto;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 77.45px;
+    color: #454444;
+}
+
+.form {
+    width: auto;
+    height: auto;
+}
+
+.login {
+    width: auto;
+    height: auto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19.36px;
+    color: #000000;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+form label {
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19.36px;
+    margin: 10px 0;
+
+
+    input {
+        padding: 7px;
+        border: none;
+        outline: none;
+        padding: 12px 0;
+        border-bottom: 2px solid #454444;
+    }
+
+}
+
+.forgot-password {
+    width: auto;
+    height: auto;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19.36px;
+    color: #000000;
+    text-align: right;
+    margin: 5px 0 40px;
+}
+
+.buttonSubmit {
+    width: auto;
+    height: auto;
+    border-radius: 30px;
+    padding: 13px 262px;
+    cursor: pointer;
+    gap: 10px;
+    background-color: #454444;
+    color: white;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29.05px;
+    border: none;
+    margin-bottom: 25px;
+}
+
+.or {
+    width: 100%;
+    position: relative;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16.94px;
+    color: #454444;
+    margin-bottom: 15px;
+}
+
+.or::after,
+.or::before {
+    content: '';
+    border: 1px solid #D9D9D9;
+    position: absolute;
+    width: 46%;
+}
+
+.or::before {
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.or::after {
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+.accounts {
+    width: auto;
+    height: auto;
+
+    p {
+        text-align: left;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19.36px;
+        color: #454444;
+    }
+
+    .circle-profiles {
+        width: 50%;
+        height: auto;
+        margin: 0 auto 25px;
+        display: flex;
+        justify-content: space-around;
+
+        div {
+            width: 60px;
+            height: 60px;
+            opacity: 65%;
+            background-color: #D9D9D9;
+            border-radius: 50%;
+        }
+    }
+
+    .account-create {
+        width: auto;
+        height: auto;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19.36px;
+        color: #000;
+    }
+}

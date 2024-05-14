@@ -1,0 +1,75 @@
+header {
+    width: 100%;
+    height: auto;
+}
+
+.contactDiv {
+    width: 100%;
+    height: 70px;
+}
+
+.siteSettings a {
+    margin-left: 20px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.78px;
+    gap: 6px;
+}
+
+.profile {
+    width: auto;
+    display: flex;
+
+    div {
+        margin: 0 15px;
+    }
+
+    a {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21.78px;
+        color: #454444;
+    }
+
+    i {
+        width: 25px;
+        height: 25px;
+        font-size: 22px;
+        color: #454444;
+    }
+}
+
+.contactDiv {
+    background-color: #454444;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.contactDiv a {
+    color: #fff;
+}
+
+.phoneNumber {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.78px;
+}
+
+i {
+    width: auto;
+    height: auto;
+}
+
+.discount {
+    line-height: 21.78px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.discount b {
+    border-left: 2px solid #fff;
+    padding-left: 10px;
+    margin-left: 7px;
+    font-weight: 700;
+}
